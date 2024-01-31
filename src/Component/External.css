@@ -1,0 +1,225 @@
+
+.card-body{
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%); 
+    
+
+
+        
+}
+
+
+
+.sample-course-card .card-body {
+    background-color: white; /* Set your desired background color */
+}
+
+
+/* Navbar */
+.brand {
+    color: #ffffff;
+    font: 400;
+}
+
+.logo {
+    padding-right: 10px;
+    width: 40px;
+    height: 30px;
+}
+
+.link{
+    color: white;
+    font: 300;
+    padding-right: 10px;
+    
+}
+
+#basic-nav-dropdown{
+    color: white;
+}
+
+#basic-nav-dropdown:hover {
+    background-color: rgb(106, 4, 116);
+    color: white;
+    font-size: medium;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.dropdown:hover {
+    color: rgb(106, 4, 116);
+}
+
+
+.link:hover {
+    background-color: rgb(106, 4, 116);
+    color: white;
+    font-size: medium;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.dropdown-menu .dropdown-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-item:hover{
+    background-color: bisque;
+    
+
+}
+
+.dropdown-item{
+    font-weight: 700;
+
+}
+
+.dropdown-menu.show {
+    display: block;
+    margin-top: 10px;
+    background-color: bisque;
+    
+}
+
+
+
+/* Style for dropdown items in small screens */
+@media (max-width: 991px) {
+    .dropdown-menu .dropdown-item {
+        text-align: center;
+        padding: 5px;
+    }
+}
+/* footer */
+/* //background:linear-gradient(to right,#00093c,#2d0b00); */
+
+/* CourseComp */
+/* CourseComp.css */
+
+.attendance-table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px auto;
+   
+  }
+  
+  .attendance-table th, .attendance-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .attendance-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .attendance-table input[type="radio"] {
+    margin-right: 8px; 
+  } 
+
+
+
+/* Card */
+
+/* Card */
+/* Card */
+/* Card */
+
+
+
+
+
+/* Heading Fonts */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #003366;
+    font-weight: bold; /* Dark blue color */
+}
+
+/* Heading Colors */
+h1 {
+    color: #003366; /* Dark blue color */
+}
+
+h2 {
+    color: #003366; /* Dark blue color */
+}
+
+h3 {
+    color: #003366; /* Dark blue color */
+}
+
+/* Add more styles for other heading levels if needed */
+
+/* Custom color for other text elements */
+p {
+    color: #080805;
+    font-size: 18px;
+    line-height: 1.6;
+    font-size: medium;
+     /* Dark blue color */
+}
+
+/* Customize font and color for card titles */
+.card-title {
+    font-family: 'Roboto', sans-serif;
+    color: #003366; /* Dark blue color */
+}
+
+/* Customize font and color for card text */
+.card-text {
+    font-family: 'Roboto', sans-serif;
+    color: #030303; /* Slightly lighter blue color */
+}
+
+/* footer */
+.icon-white {
+    color: white;
+  }
+
+
+/* CourseComp */
+.option {
+    font-family: 'Roboto', sans-serif;
+    color: #003366;
+    font-weight: bold; /* Dark blue color */
+}
+
+.label1{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-weight: bold;
+    padding-right: 10px;
+
+}
+
+input[type="date" i] {
+   width: 130px;
+   height: 25px;
+}
+
+select {
+    width: 130px;
+   height: 25px;
+}
+  
+  
+.container-fluid{
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+
+.left-side {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 450px;
+    
+  }
+  
+  .right-side {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 450px;
+  }
